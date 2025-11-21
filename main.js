@@ -1,8 +1,10 @@
-const map = new maplibregl.Map({
-    container: 'map', // HTMLの地図を表示する場所
-    style: 'https://tile.openstreetmap.jp/styles/hypsometric/style.json',
-    center: [137.6625, 36.5658], // [経度, 緯度] を黒部ダム付近に設定
-    zoom: 14, // ズームレベルを14に設定
+var map = new maplibregl.Map({
+    container: 'map',
+    // ここから地図設定
+    style: 'https://gsi-dev.optgeo.net/mapbox-style/std.json', // ← この行が入っているか
+    center: [137.6625, 36.5658],
+    zoom: 14
+});
     pitch: 0, // 傾き
     maxPitch: 85, // 最大傾き
     bearing: 0, // 回転角
