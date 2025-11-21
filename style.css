@@ -1,7 +1,9 @@
 body {
-    margin: 0;
+  margin: 0;
+  padding: 0;
 }
+html,
+body,
 #map {
-    height: 100vh; /* 画面の高さいっぱい */
-    width: 100%;  /* 画面の幅いっぱいに広げる */
+  height: 100%;
 }
